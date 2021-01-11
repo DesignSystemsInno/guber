@@ -27,7 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+STATICFILES_DIRS = [
+    "guberproject/static"
+]
 # Application definition
 
 INSTALLED_APPS = [
@@ -54,7 +56,7 @@ ROOT_URLCONF = 'guberproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/Jairo/OneDrive - Universidad EAFIT/Documentos/Guber/guber/guberproject/guberproject/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

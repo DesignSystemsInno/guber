@@ -1,0 +1,15 @@
+body{
+    background-color: #f8f8f8;
+}
+#section{
+    background-color: white;
+    -webkit-box-shadow: -67px 10px 60px -21px rgba(0,0,0,0.75);
+-moz-box-shadow: -67px 10px 60px -21px rgba(0,0,0,0.75);
+box-shadow: -67px 10px 60px -21px rgba(0,0,0,0.75);
+}
+#content{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}

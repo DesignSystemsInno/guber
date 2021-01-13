@@ -12,19 +12,20 @@
         <div></div>
     </form> -->
     <div class="form-style-5">
-        <form>
+        <form action="/loggin/" method="post">{% csrf_token %}
+           
             <fieldset>
                 <h1 _ngcontent-ng-rappi-c115="" class="f-title">Iniciar sesión</h1>
            
             <label for="job">Rol</label> 
-            <select id="job" name="field4">
+            <select id="job" name="rol">
                 <option value="chef">chef</option>
                 <option value="cliente">cliente</option>
                 <option value="domiciliario">domiciliario</option>
             </select>  
        
-        <input type="text" name="field1" placeholder="Usuario *">
-        <input type="password" name="field2" placeholder="Contraseña *">
+        <input type="text" name="user" placeholder="Usuario *">
+        <input type="password" name="pw" placeholder="Contraseña *">
        
         <input type="submit" value="Log In" />
         </form>

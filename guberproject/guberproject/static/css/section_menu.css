@@ -1,0 +1,71 @@
+#section_menu{
+    background-color: white;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    top: 3%;
+    right: 76%;
+    width: 23%;
+    height: 95%;
+    -webkit-box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
+    -moz-box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
+    box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
+    
+}
+#img_hambur{
+    
+    position: relative;
+    border-radius: 20px;
+    width: 20%;
+    height: 10%;
+    right: -39%;
+    
+}
+#nombre_foto{
+    position: relative;
+  
+    right: -7%;
+    top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#foto_chef{
+    margin: -13px;
+    width: 15%;
+    height: 10%;
+    
+    
+}
+#nombre_chef{
+    margin-left: 10%;
+    font-size:200%;
+    font-family: Poppins-SemiBold,Helvetica,Arial,sans-serif;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #949494ec  ;
+}
+#perfil{
+    position: relative;
+  
+    right: -3%;
+    top: 14%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+#perfil>p{
+    margin-left: 2%;
+    font-family: Poppins-SemiBold,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #bac0c4 
+}
+div>i{
+    margin: 16px;
+    color: #0D59F8;
+    font-size: 1.7em;
+    top: 20%;
+    font-weight: bold;
+}

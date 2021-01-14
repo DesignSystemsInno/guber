@@ -1,0 +1,15 @@
+#card_container{
+    background-color: white;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    top: 24%;
+    right: 26%;
+    width: 48%;
+    height: 74%;
+    overflow: scroll;
+    
+    /* -webkit-box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
+    -moz-box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
+    box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75); */
+    
+}

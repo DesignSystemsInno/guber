@@ -16,12 +16,13 @@ def loggin(request):
     pw = str(request.POST["pw"])
     d = chef.objects.filter(user=user, pw=pw)
     if(len(d)>=1):
-        template = loader.get_template('chef_pedidos.html')
+        template = loader.get_template('chef_section_pedidos.html')
         datos = {"nombre":d[0].nombre,
                 "edad":d[0].edad, 
                 "tarjeta_profesional":d[0].tarjeta_profesiona,
                 "correo":d[0].correo,
-                "direccion":d[0].direccion}
+                "direccion":d[0].direccion,
+                "pedidos":[1,2,3,4,5,6,7,8,9,10,11,12]}
 
         template_index = template.render(datos)
         return HttpResponse(template_index) 

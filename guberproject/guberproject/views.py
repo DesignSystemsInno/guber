@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.template import loader
 from django.shortcuts import get_object_or_404, render
-from gestionUsuarios.models import chef
+from gestionUsuarios.models import *
 
 def index(request): #Index guber.com
     template = loader.get_template('index.html')
@@ -23,6 +23,7 @@ def loggin(request):
                 "correo":d[0].correo,
                 "direccion":d[0].direccion,
                 "pedidos":[1,2,3,4,5,6,7,8,9,10,11,12]}
+        
 
         template_index = template.render(datos)
         return HttpResponse(template_index) 

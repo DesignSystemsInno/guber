@@ -2,4 +2,71 @@
 <div id="card_container">
    
    
-</div>
+    <table>
+        <!-- <tr>
+          <td><strong>dirrecion entrega</strong></td>
+          <td><strong>Cantidad</strong></td>
+          <td><strong>Descripcion</strong></td>
+          <td><strong>Propina</strong></td>
+          <td><strong>Forma de pago</strong></td>
+          <td><strong>Total</strong></td>
+          <td><strong>Fecha pedido</strong></td>
+          <td><strong>id chef receta</strong></td>
+          <td><strong>id cliente</strong></td>
+          <td><strong>id domiciliario</strong></td>
+          <td><strong>estado</strong></td>
+          <td><strong>estado</strong></td>
+        </tr> -->
+       
+        {% for i in pedidos%}
+        <div id="pedido">
+           <div id="elementos">
+               <div id="Cliente">
+                {{i.id_cliente.nombre}}
+               </div>
+               <div id="total">
+                {{i.total}}
+               </div>
+           </div>
+        </div>
+        <!-- <div class="order-container">
+            <div class="order">
+                <div class="order-preview">
+                    <h6>Cliente</h6>
+                   
+                    <h2>{{i.id_cliente.nombre}}</h2>
+                    
+                </div>
+                <div class="order-info">
+                    <div class="progress-container">
+                      
+                        <span class="progress-text">
+                            total ${{i.total}}
+                        </span>
+                    </div>
+                    <h6>cantidad {{i.cantidad}} </h6>
+                    <h2>{{i.id_chef_recetas.id_receta.nombre}}</h2>
+                    <input type="button" value="Cocinar">
+                   
+                        
+                </div>
+            </div>
+        </div>
+        -->
+
+            <!-- <tr>
+            <td>{{i.direccion_entrega}}</td>
+            <td>{{i.cantidad}}</td>
+            <td>{{i.descripcion}}</td>
+            <td>{{i.propina}}</td>
+            <td>{{i.forma_pago}}</td>
+            <td>{{i.total}}</td>
+            <td>{{i.fecha_pedido}}</td>
+            <td>{{i.id_chef_recetas.id_receta.nombre}}</td>
+            <td>{{i.id_cliente.nombre}}</td>
+            <td>{{i.id_domiciliario.nombre}}</td>
+            <td><input type="button" value="Enviar"></td>
+            </tr> -->
+        {%endfor%}
+   
+</div>   

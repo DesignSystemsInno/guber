@@ -1,0 +1,48 @@
+#section_iot{
+    overflow: scroll;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    top: 24%;
+    right: 1%;
+    width: 23%;
+    height: 70%;
+    -webkit-box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
+    -moz-box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
+    box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
+}
+#titulo_iot{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 10%;
+    font-size: 100%;
+    font-family: Poppins-SemiBold,Helvetica,Arial,sans-serif;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #949494ec;
+}
+#section_temperature{
+    position: relative;
+    display: flex;
+}
+#section_cocina_iot{
+    position: relative;
+    right: -2%;
+    top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 50%;
+    border: black;
+}
+#section_temperature{
+    position: relative;
+    right: -2%;
+    top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+}

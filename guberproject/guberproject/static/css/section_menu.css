@@ -4,7 +4,7 @@
     border-radius: 20px 20px 20px 20px;
     top: 3%;
     right: 76%;
-    width: 23%;
+    width: 20%;
     height: 95%;
     -webkit-box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
     -moz-box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
@@ -15,9 +15,9 @@
     
     position: relative;
     border-radius: 20px;
-    width: 20%;
-    height: 10%;
-    right: -39%;
+    width: 38%;
+    height: 11%;
+    right: -25%;
     
 }
 #nombre_foto{
@@ -38,7 +38,7 @@
 }
 #nombre_chef{
     margin-left: 10%;
-    font-size:200%;
+    font-size:100%;
     font-family: Poppins-SemiBold,Helvetica,Arial,sans-serif;
     letter-spacing: -1px;
     font-weight: bold;
@@ -59,7 +59,7 @@
     font-family: Poppins-SemiBold,Helvetica,Arial,sans-serif;
     letter-spacing: 1px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 15px;
     color: #bac0c4 
 }
 div>i{

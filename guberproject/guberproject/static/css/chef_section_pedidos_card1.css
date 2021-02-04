@@ -13,3 +13,12 @@
     box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75); */
     
 }
+#prueba{
+    background-color: blue;
+    margin: 5%;
+}
+#pedido{
+	background-color: blue;
+	margin: 2%;
+	border-radius: 10%;
+}

@@ -57,7 +57,7 @@ ROOT_URLCONF = 'guberproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Users/Jairo/OneDrive - Universidad EAFIT/Documentos/Guber/guber/guberproject/guberproject/templates/'],
+        'DIRS': ['C:/Users/Diego/OneDrive - Universidad EAFIT/Documentos/Guber/guber/guberproject/guberproject/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

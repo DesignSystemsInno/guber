@@ -1,21 +1,22 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'css/section_menu.css'%}">
     <link rel="stylesheet" href="{% static 'css/chef_section_pedidos.css'%}">
     <link rel="stylesheet" href="{% static 'css/chef_section_pedidos_card1.css'%}">
-    <link rel="stylesheet" href="{% static 'css/chef_section_iot.css'%}">
+    <link rel="stylesheet" href="{% static 'css/chef_section_iot1.css'%}">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
-    {% include "section_menu.html"%}
-    {% include 'chef_section_iot.html'%}    
-    {% include 'chef_pedidos_card.html'%}
-    
+
+    {% include "section_menu.html"%} {% include 'chef_section_iot.html'%} {% include 'chef_pedidos_card.html'%}
+
 </body>
+
 </html>

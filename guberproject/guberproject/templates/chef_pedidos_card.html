@@ -1,7 +1,7 @@
 {% load static %}
 <div id="card_container">
-   
-   
+
+
     <table>
         <!-- <tr>
           <td><strong>dirrecion entrega</strong></td>
@@ -17,17 +17,34 @@
           <td><strong>estado</strong></td>
           <td><strong>estado</strong></td>
         </tr> -->
-       
+
         {% for i in pedidos%}
         <div id="pedido">
-           <div id="elementos">
-               <div id="Cliente">
-                {{i.id_cliente.nombre}}
-               </div>
-               <div id="total">
-                {{i.total}}
-               </div>
-           </div>
+            <div id="elementos">
+                <div id="cliente">
+                    {{i.id_cliente.nombre}}
+                </div>
+                <div id="informacion_inferior">
+                    <div id="id">
+                        Id pedido: {{i.id}}
+                    </div>
+                    <div id="total">
+                        Total a pagar: {{i.total}}
+                        <i class="fas fa-money-bill-alt"></i>
+                    </div>
+                    <div id="cantidad">
+                        Cantidad: {{i.cantidad}}
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div id="direccion_entrega">
+                        Dirección de entrega: {{i.direccion_entrega}}
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div id="boton_cocinar">
+                        <input type="button" value="Cocinar">
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- <div class="order-container">
             <div class="order">
@@ -54,7 +71,7 @@
         </div>
         -->
 
-            <!-- <tr>
+        <!-- <tr>
             <td>{{i.direccion_entrega}}</td>
             <td>{{i.cantidad}}</td>
             <td>{{i.descripcion}}</td>
@@ -68,5 +85,5 @@
             <td><input type="button" value="Enviar"></td>
             </tr> -->
         {%endfor%}
-   
-</div>   
+
+</div>

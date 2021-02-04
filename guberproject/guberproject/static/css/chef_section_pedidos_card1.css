@@ -1,4 +1,4 @@
-#card_container{
+#card_container {
     background-color: white;
     position: absolute;
     border-radius: 20px 20px 20px 20px;
@@ -7,18 +7,54 @@
     width: 48%;
     height: 74%;
     overflow: scroll;
-    
     /* -webkit-box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
     -moz-box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75);
     box-shadow: -67px 14px 300px -143px rgba(0,0,0,0.75); */
-    
 }
-#prueba{
-    background-color: blue;
+
+#prueba {
+    background-color: white;
     margin: 5%;
 }
-#pedido{
-	background-color: blue;
-	margin: 2%;
-	border-radius: 10%;
+
+#pedido {
+    background-color: white;
+    margin: 2%;
+}
+
+#elementos {
+    border: 1px solid #F8C822;
+    color: #0D59F8;
+}
+
+#cliente {
+    margin-left: 30%;
+    font-size: 161%;
+    font-weight: bold;
+    font-family: Poppins-SemiBold, Helvetica, Arial, sans-serif;
+    letter-spacing: -1px
+}
+
+#informacion_inferior {
+    position: relative;
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#total {
+    margin-left: 2%;
+}
+
+#cantidad {
+    margin-left: 2%;
+}
+
+#direccion_entrega {
+    margin-left: 2%;
+}
+
+#boton_cocinar {
+    margin-left: 2%;
 }
